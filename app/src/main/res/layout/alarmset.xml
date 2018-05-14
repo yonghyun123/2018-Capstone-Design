@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/alarm_total"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter">
+      
+	<!-- Time -->
+    <LinearLayout
+        android:id="@+id/time"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center_horizontal"
+		android:paddingLeft="12dp"
+		android:paddingRight="12dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp">
+	
+	  	<kankan.wheel.widget.WheelView android:id="@+id/hour"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/mins"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"/>
+	</LinearLayout>
+      
+   	 	<TimePicker
+   	 	    android:id="@+id/time_picker"
+   	 	    android:layout_width="0sp"
+   	 	    android:layout_height="0sp"
+   	 	     />
+    
+  <!-- 구분선 -->
+	<TextView android:background="#80888888" android:layout_height="2dip"  android:layout_width="fill_parent" 
+	android:id="@+id/anarm_set_d2" android:layout_below="@id/time" />
+    
+	<TextView
+            android:id = "@+id/weather"
+            android:layout_below="@id/anarm_set_d2" 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textColor="#000000"
+    		android:textSize="20sp"
+    		android:text="요일반복"
+    	></TextView>
+		<!-- Button 요일 설정 -->
+    <LinearLayout
+        android:id = "@+id/week_button"
+        android:layout_below="@id/weather" 
+        android:layout_width="fill_parent"
+    	android:layout_height="70dip">
+   	 	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		>
+        	<CheckBox
+        	    android:id = "@+id/mon"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	<TextView 
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="월"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+        	<CheckBox
+        	    android:id = "@+id/tue"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	
+        	<TextView 
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="화"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+        	<CheckBox
+        	    android:id = "@+id/wed"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	<TextView 
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="수"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+        	<CheckBox
+        	    android:id = "@+id/thur"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	<TextView 
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="목"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+    		
+        	<CheckBox
+        	    android:id = "@+id/fri"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	<TextView
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp" 
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="금"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+    	
+        	<CheckBox
+        	    android:id = "@+id/sat"	
+	        	android:layout_width="wrap_content" 
+    	    	android:layout_height="wrap_content"
+    	    	></CheckBox>
+        	<TextView 
+        	    android:paddingTop="43dp"
+        	    android:paddingLeft="10dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="wrap_content"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="토"
+    		    />
+    	</FrameLayout>
+    	
+   	 	<FrameLayout
+   	 	    android:layout_width="46dip"
+    		android:layout_height="65dip"
+    		android:orientation="vertical"
+    		>
+    	
+        	<CheckBox
+        	    android:id = "@+id/sun"	
+	        	android:layout_width="fill_parent" 
+    	    	android:layout_height="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    	    	></CheckBox>
+        	<TextView 
+        	    android:paddingTop="43dp"
+    		    android:layout_height="wrap_content"
+    		    android:layout_width="fill_parent"
+    		    android:gravity="center"
+    		    android:layout_gravity="center_horizontal"
+    		    android:textColor="#a0304f"
+    			android:textSize="15sp"
+    		    android:text="일"
+    		    />
+    	</FrameLayout>
+       
+	</LinearLayout>
+	
+        <!-- 구분선 -->
+	<TextView android:background="#80888888" android:layout_height="2dip"  android:layout_width="fill_parent" 
+	android:id="@+id/anarm_set_d3" android:layout_below="@id/week_button" />
+	
+	<RelativeLayout
+		android:id="@+id/alarm_set_l2"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/list_selector_background"
+    	android:clickable="true"
+        android:focusable="true"
+    	android:layout_below="@id/anarm_set_d3" 
+        >
+		<RadioGroup
+			android:id="@+id/select_radio"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<RadioButton
+				android:text="뉴스선택"
+				android:id="@+id/selectNews"
+				android:layout_width="0dp"
+				android:textColor="@android:color/black"
+				android:layout_weight="1"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:textColor="@android:color/black"
+				android:text="벨소리선택"
+				android:checked="true"
+				android:id="@+id/selectRing"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content" />
+
+		</RadioGroup>
+	</RelativeLayout>
+	<!-- 구분선 -->
+	<TextView android:background="#80888888" android:layout_height="2dip"  android:layout_width="fill_parent"
+		android:id="@+id/anarm_set_d5" android:layout_below="@id/alarm_set_l2" />
+
+	<RelativeLayout
+		android:id="@+id/alarm_set_l4"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:focusableInTouchMode="true"
+		android:focusable="true"
+		android:layout_below="@id/anarm_set_d5" >
+
+		<TextView
+			android:id="@+id/ringtone"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="60dip"
+			android:background="@android:drawable/list_selector_background"
+			android:clickable="true"
+			android:focusable="true"
+			android:paddingTop="10dp"
+			android:paddingLeft="5dp"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:text="벨소리"
+			/>
+		<EditText
+			android:id="@+id/newsText"
+			android:layout_width="fill_parent"
+			android:hint="keyword"
+			android:minHeight="60dip"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:background="@android:drawable/list_selector_background"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:paddingTop="10dp"
+			android:paddingLeft="5dp"
+			android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+
+	    <!-- 구분선 -->
+	<TextView android:background="#80888888" android:layout_height="2dip"  android:layout_width="fill_parent" 
+		android:id="@+id/anarm_set_d4" android:layout_below="@id/alarm_set_l4" />
+	
+    
+	<!-- 진동 -->
+	<RelativeLayout
+		android:id="@+id/alarm_set_l3" 
+		android:layout_below="@id/anarm_set_d4"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dip"
+		>
+	    <TextView
+    		android:id="@+id/alarm_set_l3_title"
+    		android:layout_alignParentLeft="true"
+	        android:layout_width="wrap_content" 
+    	    android:layout_height="wrap_content"
+        	android:paddingLeft="5dp"
+    		android:layout_centerVertical="true"
+			android:textColor="#000000"
+			android:textSize="20sp"
+    	    android:text="진동"
+        	/>
+		<CheckBox 
+    		android:id="@+id/alarm_set_vibrate"
+    		android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content" 
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+			/>        	
+		</RelativeLayout>
+
+
+    <!-- Button 설정 완료, 해제 버튼-->
+    <LinearLayout
+        android:id = "@+id/setCancelButton" 
+        android:orientation = "horizontal"
+        android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+    	android:layout_height="wrap_content">
+
+    	
+        <Button
+			android:id = "@+id/set"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:text="완료"
+			></Button>
+
+   </LinearLayout>
+    
+ </RelativeLayout>

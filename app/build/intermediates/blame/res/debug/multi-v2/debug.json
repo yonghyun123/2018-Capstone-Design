@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3,-1",
+                        "startColumns": "4,4,-1",
+                        "startOffsets": "119,56,-1",
+                        "endColumns": "41,62,-1",
+                        "endOffsets": "156,114,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "221,263,326",
+                        "endColumns": "41,62,49",
+                        "endOffsets": "258,321,371"
+                    }
+                }
+            ]
+        }
+    ]
+}

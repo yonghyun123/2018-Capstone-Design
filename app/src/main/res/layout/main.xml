@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+         <!-- 광고 : naver -->
+	<!--<com.nbpcorp.mobilead.sdk.MobileAdView-->
+	    <!--xmlns:mobilead="http://schemas.android.com/apk/res/nabak.nabakalarm"-->
+    	<!--android:id="@+id/adview1"-->
+    	<!--android:layout_alignParentBottom="true"-->
+    	<!--android:layout_width="fill_parent"-->
+    	<!--android:layout_height="wrap_content"-->
+    	<!--android:layout_gravity="bottom"-->
+    	<!--mobilead:channel_id="mandroid_f27c7ec853d143208b0e950eb246033d"-->
+    	<!--mobilead:test="false"-->
+    	<!--/>-->
+	  <!-- ======================================================================= -->
+
+     <LinearLayout android:id="@+id/AfterNoonSleep"
+        android:background="#ffffff"      
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+     </LinearLayout>
+
+    <LinearLayout android:id="@+id/StopWatch"
+        android:background="#ffffff"  
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ></LinearLayout>
+
+</FrameLayout>
