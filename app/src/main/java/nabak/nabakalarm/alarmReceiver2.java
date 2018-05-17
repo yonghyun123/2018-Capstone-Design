@@ -241,6 +241,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 			myTTs.stop();
 			myTTs.shutdown();
 		}
+		Utility.startFirstAlarm(this);
 	}
 
 	/*
@@ -303,7 +304,6 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 			ttsGreater21(ttsResponse.toString());
 		}
 
-
 		private void parseJson() throws JSONException {
 			JSONObject obj = new JSONObject(response.toString());
 			JSONArray items = obj.getJSONArray("items");
@@ -315,8 +315,6 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 				ttsResponse.append(i+1+"번 째 뉴스 "+getString(tmpObj.getString("title")) + "  ");
 			}
 			Log.i("ttsResponse",ttsResponse.toString());
-
-
 		}
 
 		private String getString(String str){
