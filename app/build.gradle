@@ -21,4 +21,6 @@ android {
 dependencies {
     implementation files('libs/nbpmobilead.jar')
     implementation 'org.jsoup:jsoup:1.7.3'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+
 }

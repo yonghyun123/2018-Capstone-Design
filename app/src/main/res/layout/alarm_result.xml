@@ -7,8 +7,14 @@
     <LinearLayout android:id="@+id/alarm_result"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation = "vertical"
-        >
+        android:orientation = "vertical">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <TextView
             android:id="@+id/TestViewNews"
             android:background="#ffffff"
@@ -22,7 +28,7 @@
             android:layout_height="fill_parent"
             android:scaleType="fitCenter"
             android:background="@drawable/btn_play_default"
-            android:layout_weight = "4">
+            android:layout_weight = "1">
         </ImageButton>
     </LinearLayout>
 </LinearLayout>

@@ -14,87 +14,110 @@
     <list default="true" id="b592c4ee-5bf9-482e-b95f-b2be45fc9bd0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/nabak/nabakalarm/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/nabak/nabakalarm/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/DBAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/DBAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmReceiver2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/DBAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/DBAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$5.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmReceiver2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$5.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/nojatGlgw+KIIGsIltC82xqmq5k=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_alarm_result.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_alarm_result.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22/kankan/wheel/widget/WheelView.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22/kankan/wheel/widget/WheelView.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24/com/nabak/movingview/MovingView.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24/com/nabak/movingview/MovingView.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/DBAdapter$NoteOpenHelper.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/DBAdapter$NoteOpenHelper.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/DBAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/DBAdapter.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/NabakAlarmActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/NabakAlarmActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm$3.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm$MyCursorAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm$MyCursorAdapter.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarm.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmReceiver2.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet$4.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet$5.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27/nabak/nabakalarm/alarmSet.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/24/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/24/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/nabak/movingview/MovingView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/nabak/movingview/MovingView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/kankan/wheel/widget/WheelView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/kankan/wheel/widget/WheelView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/DBAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/DBAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/NabakAlarmActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/NabakAlarmActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/25/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/25/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmReceiver2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$5.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/kankan/wheel/widget/WheelView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/kankan/wheel/widget/WheelView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/nabak/movingview/MovingView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/nabak/movingview/MovingView.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/DBAdapter$NoteOpenHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/DBAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/DBAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/NabakAlarmActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/NabakAlarmActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2$HtmlAsyncTask.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmReceiver2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$4.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$5.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmReceiver2.java" afterPath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmReceiver2.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +144,7 @@
       <file leaf-file-name="alarmSet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="0">
               <caret line="337" column="31" lean-forward="false" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="31" />
               <folding />
             </state>
@@ -132,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -141,28 +164,9 @@
       <file leaf-file-name="ReceiveNews.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ReceiveNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
+            <state relative-caret-position="210">
               <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/DBAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding>
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#2185#2186#0" expanded="true" />
-                <element signature="e#2208#2209#0" expanded="true" />
-                <element signature="e#2970#2971#0" expanded="true" />
-                <element signature="e#3029#3030#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -170,12 +174,9 @@
       <file leaf-file-name="alarm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="171" column="65" lean-forward="true" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
-              <folding>
-                <element signature="e#5259#5660#0" expanded="true" />
-                <element signature="e#5659#5660#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2130">
+              <caret line="171" column="65" lean-forward="false" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,598 +184,71 @@
       <file leaf-file-name="alarmReceiver2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmReceiver2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="36" />
+            <state relative-caret-position="228">
+              <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
               <folding>
-                <element signature="e#3872#3873#0" expanded="true" />
-                <element signature="e#3927#3928#0" expanded="true" />
-                <element signature="e#5965#5966#0" expanded="true" />
-                <element signature="e#5988#5989#0" expanded="true" />
-                <element signature="e#6098#6099#0" expanded="true" />
-                <element signature="e#6126#6127#0" expanded="true" />
-                <element signature="e#6166#6167#0" expanded="true" />
-                <element signature="e#6188#6189#0" expanded="true" />
-                <element signature="e#6227#6228#0" expanded="true" />
-                <element signature="e#6248#6249#0" expanded="true" />
-                <element signature="e#6290#6291#0" expanded="true" />
-                <element signature="e#6314#6315#0" expanded="true" />
-                <element signature="e#6734#6735#0" expanded="true" />
-                <element signature="e#6763#6764#0" expanded="true" />
+                <element signature="e#4304#4311#0" expanded="true" />
+                <element signature="e#5786#5787#0" expanded="true" />
+                <element signature="e#5841#5842#0" expanded="true" />
+                <element signature="e#6749#7060#0" expanded="true" />
+                <element signature="e#7059#7060#0" expanded="true" />
+                <element signature="e#8092#8093#0" expanded="true" />
+                <element signature="e#8121#8122#0" expanded="true" />
+                <element signature="e#10438#10439#0" expanded="true" />
+                <element signature="e#10461#10462#0" expanded="true" />
+                <element signature="e#10571#10572#0" expanded="true" />
+                <element signature="e#10599#10600#0" expanded="true" />
+                <element signature="e#10639#10640#0" expanded="true" />
+                <element signature="e#10661#10662#0" expanded="true" />
+                <element signature="e#10700#10701#0" expanded="true" />
+                <element signature="e#10721#10722#0" expanded="true" />
+                <element signature="e#10763#10764#0" expanded="true" />
+                <element signature="e#10787#10788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-8/android.jar!/android/view/View.class">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12180">
-              <caret line="1290" column="0" lean-forward="false" selection-start-line="1290" selection-start-column="0" selection-end-line="1290" selection-end-column="0" />
-              <folding>
-                <marker date="1523928632307" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1523928632307" expanded="false" signature="136:1129" ph="..." />
-                <marker date="1523928632307" expanded="false" signature="4834:4845" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="4881:4887" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="4941:4952" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="4988:4994" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="5063:5115" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="5170:5181" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5217:5223" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5269:5280" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5316:5322" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5371:5382" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5418:5424" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5472:5483" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5519:5525" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5569:5580" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5616:5622" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5672:5683" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5719:5725" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="5780:5791" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="5827:5833" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="5906:5958" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="6025:6077" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="6137:6148" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6184:6190" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="6259:6311" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="6396:6448" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="6483:6494" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6530:6536" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="6575:6586" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6622:6628" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="6666:6677" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6713:6719" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="6775:6786" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6822:6828" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="6888:6899" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="6935:6941" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="7002:7013" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="7049:7055" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="7136:7188" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="7218:7229" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="7265:7271" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="7302:7313" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="7349:7355" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="7390:7401" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="7437:7443" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="7541:7593" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="7648:7659" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="7695:7701" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="7777:7829" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="7911:7963" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="8012:8023" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8059:8065" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="8138:8190" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="8222:8233" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8269:8275" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="8304:8315" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8351:8357" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="8421:8473" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="8514:8525" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8561:8567" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="8620:8631" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8667:8673" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="8711:8722" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8758:8764" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="8819:8830" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8866:8872" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="8909:8920" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="8956:8962" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9019:9030" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9066:9072" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9110:9121" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9157:9163" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9222:9233" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9269:9275" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9310:9321" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9357:9363" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9416:9427" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9463:9469" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9506:9517" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9553:9559" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9616:9627" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9663:9669" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9699:9710" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9746:9752" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9805:9816" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9852:9858" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9890:9901" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="9937:9943" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="9990:10001" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10037:10043" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="10075:10086" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10122:10128" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="10173:10184" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10220:10226" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="10275:10286" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10322:10328" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="10400:10452" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="10522:10574" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="10618:10629" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10665:10671" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="10745:10797" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="10843:10854" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10890:10896" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="10949:10960" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="10996:11002" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11036:11047" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11083:11089" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="11159:11211" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="11253:11264" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11300:11306" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11340:11351" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11387:11393" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11442:11453" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11489:11495" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11533:11544" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11580:11586" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11643:11654" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11690:11696" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11741:11752" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11788:11794" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11850:11861" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11897:11903" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="11935:11946" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="11982:11988" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="12024:12035" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12071:12077" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="12126:12137" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12173:12179" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="12219:12230" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12266:12272" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="12323:12334" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12370:12376" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="12420:12431" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12467:12473" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="12545:12597" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="12654:12665" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="12701:12707" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="12777:12829" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="12918:12970" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="13014:13025" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13061:13067" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13121:13132" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13168:13174" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13215:13226" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13262:13268" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13322:13333" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13369:13375" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="13452:13504" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="13554:13565" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13601:13607" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13649:13660" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13696:13702" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13745:13756" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13792:13798" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13850:13861" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="13897:13903" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="13962:13973" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="14009:14015" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="14068:14079" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="14115:14121" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="14182:14193" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="14229:14235" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="14293:14304" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="14340:14346" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="14409:14461" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="14524:14576" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="14639:14691" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="14728:14739" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="14775:14781" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="14862:14914" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="14989:15041" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="15088:15099" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="15135:15141" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="15185:15196" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="15232:15238" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="15304:15356" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="15419:15471" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="15509:15520" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="15556:15562" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="15622:15633" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="15669:15675" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="15747:15799" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="15868:15920" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="15956:15967" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16003:16009" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="16048:16059" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16095:16101" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="16162:16173" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16209:16215" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="16274:16285" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16321:16327" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="16392:16444" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="16501:16512" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16548:16554" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="16635:16687" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="16751:16803" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="16845:16856" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="16892:16898" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="16972:17024" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="17081:17092" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17128:17134" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17187:17198" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17234:17240" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17292:17303" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17339:17345" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17403:17414" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17450:17456" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17512:17523" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17559:17565" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17617:17628" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17664:17670" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17705:17716" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17752:17758" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17816:17827" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17863:17869" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17914:17925" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="17961:17967" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="17999:18010" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18046:18052" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="18123:18175" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="18244:18296" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="18344:18355" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18391:18397" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18438:18449" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18485:18491" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18526:18537" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18573:18579" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18614:18625" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18661:18667" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18700:18711" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18747:18753" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18787:18798" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18834:18840" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18886:18897" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="18933:18939" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="18980:18991" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19027:19033" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19075:19086" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19122:19128" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19159:19170" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19206:19212" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19246:19257" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19293:19299" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19331:19342" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19378:19384" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19417:19428" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19464:19470" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19512:19523" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19559:19565" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19605:19616" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19652:19658" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="19728:19780" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="19835:19846" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19882:19888" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="19942:19953" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="19989:19995" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20043:20054" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20090:20096" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20144:20155" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20191:20197" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20240:20251" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20287:20293" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20347:20358" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20394:20400" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20440:20451" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20487:20493" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20533:20544" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20580:20586" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20628:20639" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20675:20681" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="20737:20748" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="20784:20790" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="20867:20919" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="20959:20970" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21006:21012" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21068:21079" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21115:21121" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21151:21162" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21198:21204" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21235:21246" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21282:21288" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21321:21332" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21368:21374" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21416:21427" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21463:21469" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="21537:21589" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="21642:21653" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21689:21695" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="21729:21740" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="21776:21782" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="21857:21909" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="21973:22025" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="22131:22183" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="22216:22227" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="22263:22269" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="22321:22332" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="22368:22374" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="22460:22512" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="22562:22573" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="22609:22615" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="22697:22749" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="22797:22808" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="22844:22850" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="22901:22912" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="22948:22954" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="23003:23014" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23050:23056" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="23106:23117" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23153:23159" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="23210:23221" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23257:23263" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="23347:23399" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="23448:23459" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23495:23501" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="23581:23633" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="23701:23753" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="23800:23811" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23847:23853" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="23899:23910" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="23946:23952" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="23988:23999" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24035:24041" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24091:24102" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24138:24144" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24195:24206" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24242:24248" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24299:24310" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24346:24352" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24400:24411" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24447:24453" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24502:24513" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24549:24555" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24604:24615" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24651:24657" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24715:24726" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24762:24768" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24810:24821" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24857:24863" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="24904:24915" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="24951:24957" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="25000:25011" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="25047:25053" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="25095:25106" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="25142:25148" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="25185:25196" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="25232:25238" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="25286:25297" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="25333:25339" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="25411:25463" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="25545:25597" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="25645:25656" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="25692:25698" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="25773:25825" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="25910:25962" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="26023:26034" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26070:26076" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26110:26121" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26157:26163" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="26229:26281" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="26333:26344" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26380:26386" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26443:26454" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26490:26496" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26540:26551" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26587:26593" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26630:26641" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26677:26683" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26737:26748" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26784:26790" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26829:26840" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26876:26882" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="26941:26952" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="26988:26994" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27043:27054" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27090:27096" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27133:27144" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27180:27186" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27240:27251" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27287:27293" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27328:27339" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27375:27381" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27430:27441" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27477:27483" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27525:27536" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27572:27578" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27621:27632" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27668:27674" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27715:27726" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27762:27768" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27812:27823" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27859:27865" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27902:27913" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="27949:27955" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="27987:27998" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28034:28040" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="28080:28091" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28127:28133" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="28191:28202" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28238:28244" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="28333:28385" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="28423:28434" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28470:28476" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="28513:28524" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28560:28566" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="28621:28632" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="28668:28674" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="28749:28801" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="28867:28919" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="28969:28980" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29016:29022" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29074:29085" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29121:29127" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29170:29181" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29217:29223" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29263:29274" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29310:29316" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29359:29370" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29406:29412" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29471:29482" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29518:29524" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="29613:29665" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="29712:29723" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29759:29765" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29815:29826" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29862:29868" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="29919:29930" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="29966:29972" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30009:30020" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30056:30062" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="30133:30185" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="30217:30228" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30264:30270" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30305:30316" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30352:30358" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30391:30402" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30438:30444" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30478:30489" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30525:30531" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30578:30589" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30625:30631" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30689:30700" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30736:30742" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30775:30786" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30822:30828" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30879:30890" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="30926:30932" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="30963:30974" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31010:31016" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31069:31080" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31116:31122" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31175:31186" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31222:31228" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31272:31283" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31319:31325" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31376:31387" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31423:31429" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31460:31471" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31507:31513" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31537:31548" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31584:31590" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31618:31629" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31665:31671" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31707:31718" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31754:31760" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31795:31806" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31842:31848" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31893:31904" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="31940:31946" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="31976:31987" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="32023:32029" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="32062:32073" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="32109:32115" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="32146:32157" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="32193:32199" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="32276:32328" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="32404:32456" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="32543:32595" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="32658:32710" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="32776:32828" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="32875:32886" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="32922:32928" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="32974:32985" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33021:33027" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33076:33087" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33123:33129" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33176:33187" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33223:33229" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33266:33277" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33313:33319" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33372:33383" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33419:33425" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33459:33470" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33506:33512" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33563:33574" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33610:33616" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33655:33666" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33702:33708" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33745:33756" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33792:33798" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33843:33854" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33890:33896" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="33948:33959" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="33995:34001" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="34066:34118" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34194:34246" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34326:34378" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34441:34809" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34562:34655" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34710:34803" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34860:34952" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="34991:35031" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="35076:35136" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="35179:35226" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="35265:35326" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="35363:35429" ph="{...}" />
-                <marker date="1523928632307" expanded="true" signature="35467:36190" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="35656:35671" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="35707:35717" ph=" }" />
-                <marker date="1523928632307" expanded="true" signature="35781:35841" ph="{...}" />
-                <marker date="1523928632307" expanded="false" signature="35893:35908" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="35944:35954" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="36006:36021" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="36057:36067" ph=" }" />
-                <marker date="1523928632307" expanded="false" signature="36123:36138" ph=" { " />
-                <marker date="1523928632307" expanded="false" signature="36174:36184" ph=" }" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="alarm_result.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NabakAlarmActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/NabakAlarmActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
+            <state relative-caret-position="15">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alarm_receiver2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alarm_receiver2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -2836,7 +2310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_receiver.xml" />
@@ -2847,15 +2320,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmCancel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_receiver2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarmset.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarm.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/NabakAlarmActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ReceiveNews.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmSet.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/DBAdapter.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmReceiver2.java" />
       </list>
     </option>
@@ -2881,6 +2355,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2897,12 +2373,13 @@
               <item name="nabakalarm-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="nabakalarm" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="movingview" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="nabakalarm-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="nabakalarm" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="nabakalarm-master" type="1abcf292:AndroidViewProjectNode" />
@@ -2914,8 +2391,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2923,6 +2398,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="device.picker.selection" value="Nexus_5X_API_26" />
     <property name="android.profiler.active" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3119,7 +2596,8 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.51302934" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32874355" sideWeight="0.48615634" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.48615634" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.495114" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.4869707" order="7" side_tool="false" content_ui="tabs" />
@@ -3127,7 +2605,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2198697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24784854" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24784854" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3141,7 +2619,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3155,11 +2632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/target.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/nbpmobilead.jar!/com/nbpcorp/mobilead/sdk/MobileAdView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2086">
@@ -3195,7 +2667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3203,7 +2674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3211,7 +2681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3281,22 +2750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3389,7 +2842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3400,7 +2852,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3422,18 +2873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4215">
           <caret line="281" column="44" lean-forward="false" selection-start-line="281" selection-start-column="44" selection-end-line="281" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3988,17 +3427,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/DBAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="705">
           <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
           <folding>
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2970#2971#0" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="false" />
+            <element signature="e#1563#1564#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#2185#2186#0" expanded="false" />
+            <element signature="e#2208#2209#0" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="false" />
+            <element signature="e#3029#3030#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4006,22 +3445,14 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/NabakAlarmActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ReceiveNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
+        <state relative-caret-position="210">
           <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
@@ -4029,7 +3460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="0">
           <caret line="337" column="31" lean-forward="false" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="31" />
           <folding />
         </state>
@@ -4037,34 +3468,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="171" column="65" lean-forward="true" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
-          <folding>
-            <element signature="e#5259#5660#0" expanded="true" />
-            <element signature="e#5659#5660#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2130">
+          <caret line="171" column="65" lean-forward="false" selection-start-line="171" selection-start-column="65" selection-end-line="171" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/NabakAlarmActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/a686f57c1f31262aaecf0cdf700d78eaa8f6b6ab/MPAndroidChart-v3.0.2-sources.jar!/com/github/mikephil/charting/components/AxisBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="515" column="16" lean-forward="false" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmReceiver2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
           <folding>
-            <element signature="e#3872#3873#0" expanded="true" />
-            <element signature="e#3927#3928#0" expanded="true" />
-            <element signature="e#5965#5966#0" expanded="true" />
-            <element signature="e#5988#5989#0" expanded="true" />
-            <element signature="e#6098#6099#0" expanded="true" />
-            <element signature="e#6126#6127#0" expanded="true" />
-            <element signature="e#6166#6167#0" expanded="true" />
-            <element signature="e#6188#6189#0" expanded="true" />
-            <element signature="e#6227#6228#0" expanded="true" />
-            <element signature="e#6248#6249#0" expanded="true" />
-            <element signature="e#6290#6291#0" expanded="true" />
-            <element signature="e#6314#6315#0" expanded="true" />
-            <element signature="e#6734#6735#0" expanded="true" />
-            <element signature="e#6763#6764#0" expanded="true" />
+            <element signature="e#4304#4311#0" expanded="true" />
+            <element signature="e#5786#5787#0" expanded="true" />
+            <element signature="e#5841#5842#0" expanded="true" />
+            <element signature="e#6749#7060#0" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#8092#8093#0" expanded="true" />
+            <element signature="e#8121#8122#0" expanded="true" />
+            <element signature="e#10438#10439#0" expanded="true" />
+            <element signature="e#10461#10462#0" expanded="true" />
+            <element signature="e#10571#10572#0" expanded="true" />
+            <element signature="e#10599#10600#0" expanded="true" />
+            <element signature="e#10639#10640#0" expanded="true" />
+            <element signature="e#10661#10662#0" expanded="true" />
+            <element signature="e#10700#10701#0" expanded="true" />
+            <element signature="e#10721#10722#0" expanded="true" />
+            <element signature="e#10763#10764#0" expanded="true" />
+            <element signature="e#10787#10788#0" expanded="true" />
           </folding>
         </state>
       </provider>

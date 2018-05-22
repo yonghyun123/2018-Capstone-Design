@@ -10,6 +10,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 
 import android.app.Activity;
@@ -21,6 +22,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
@@ -42,6 +44,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.mikephil.charting.animation.Easing;
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Description;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
 import com.nabak.movingview.MovingView;
 import com.nbpcorp.mobilead.sdk.MobileAdListener;
 import com.nbpcorp.mobilead.sdk.MobileAdView;
@@ -59,6 +69,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	private Vibrator vibe = null;
 	private PowerManager.WakeLock wl = null;
 	private PowerManager pm;
+	private LineChart lineChart;
 	private StringBuffer response = new StringBuffer();
 	private StringBuffer ttsResponse = new StringBuffer();
 	private ArrayList<String> titleList = new ArrayList<String>();
@@ -76,21 +87,11 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	private TextView mNewsText;
 
 	@Override
-	//TTS init method
-	public void onInit(int initStatus) {
-		if (initStatus == TextToSpeech.SUCCESS) {
-			myTTs.setLanguage(Locale.KOREAN);
-			ttsGreater21(ttsResponse.toString());
-		} else {
-			Log.i("TTS", "fail!!!!!!!!!!!");
-		}
-	}
-
-	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.alarm_result);
+
 		//검색 api test
 
 		pm = (PowerManager) this.getSystemService(Context.POWER_SERVICE);
@@ -108,6 +109,9 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 		mNewsKeyword = getIntent().getStringExtra("newsKeyword");
 		int vibrate = getIntent().getIntExtra("vibrate", 0);
 
+		//make chart
+		lineChart = (LineChart)findViewById(R.id.chart);
+
 
 
 		myTTs = new TextToSpeech(this,this);
@@ -123,10 +127,62 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 		HtmlAsyncTask htmlAsyncTask = new HtmlAsyncTask();
 		htmlAsyncTask.execute();
+		makeChart();
 	}
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/*
+		created by yonghyun
+		2018.05.20
+		make chart
+	 */
+	private void makeChart(){
+		List<Entry> entries = new ArrayList<Entry>();
+		entries.add(new Entry(1, 1));
+		entries.add(new Entry(2, 2));
+		entries.add(new Entry(3, 0));
+		entries.add(new Entry(4, 4));
+		entries.add(new Entry(5, 3));
+
+		LineDataSet lineDataSet = new LineDataSet(entries, "속성명1");
+		lineDataSet.setLineWidth(2);
+		lineDataSet.setCircleRadius(6);
+		lineDataSet.setCircleColor(Color.parseColor("#FFA1B4DC"));
+		lineDataSet.setCircleColorHole(Color.BLUE);
+		lineDataSet.setColor(Color.parseColor("#FFA1B4DC"));
+		lineDataSet.setDrawCircleHole(true);
+		lineDataSet.setDrawCircles(true);
+		lineDataSet.setDrawHorizontalHighlightIndicator(false);
+		lineDataSet.setDrawHighlightIndicators(false);
+		lineDataSet.setDrawValues(false);
+
+		LineData lineData = new LineData(lineDataSet);
+		lineChart.setData(lineData);
+
+		XAxis xAxis = lineChart.getXAxis();
+		xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+		xAxis.setTextColor(Color.WHITE);
+//		xAxis.enableGridDashedLine(8, 24, 0);
+
+		YAxis yLAxis = lineChart.getAxisLeft();
+		yLAxis.setTextColor(Color.WHITE);
+
+		YAxis yRAxis = lineChart.getAxisRight();
+		yRAxis.setDrawLabels(false);
+		yRAxis.setDrawAxisLine(false);
+		yRAxis.setDrawGridLines(false);
+
+		Description description = new Description();
+		description.setText("");
+
+		lineChart.setDoubleTapToZoomEnabled(false);
+		lineChart.setDrawGridBackground(false);
+		lineChart.setDescription(description);
+		lineChart.animateY(2000, Easing.EasingOption.EaseInCubic);
+		lineChart.invalidate();
+	}
+
 
 	private void ttsGreater21(String str) {
 		myTTs.speak(str, TextToSpeech.QUEUE_FLUSH, null);
@@ -201,48 +257,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	}
 
 
-	//
-	@Override
-	protected void onResume() {
-		super.onResume();
-	}
 
-	//
-	@Override
-	protected void onStart() {
-		super.onStart();
-
-	}
-
-	@Override
-	public void onBackPressed() {
-		super.onBackPressed();
-	}
-
-	@Override
-	protected void onPause() {
-		super.onPause();
-	}
-
-	@Override
-	protected void onStop() {
-		super.onStop();
-	}
-
-	@Override
-	protected void onRestart() {
-		super.onRestart();
-	}
-
-	@Override
-	protected void onDestroy() {
-		super.onDestroy();
-		if (myTTs != null) {
-			myTTs.stop();
-			myTTs.shutdown();
-		}
-		Utility.startFirstAlarm(this);
-	}
 
 	/*
 	created by yonghyun 2018.5.4
@@ -323,6 +338,61 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 			str = str.replaceAll(match, " ");
 			return str;
 		}
+	}
+
+	@Override
+	//TTS init method
+	public void onInit(int initStatus) {
+		if (initStatus == TextToSpeech.SUCCESS) {
+			myTTs.setLanguage(Locale.KOREAN);
+			ttsGreater21(ttsResponse.toString());
+		} else {
+			Log.i("TTS", "fail!!!!!!!!!!!");
+		}
+	}
+
+
+	//
+	@Override
+	protected void onResume() {
+		super.onResume();
+	}
+
+	//
+	@Override
+	protected void onStart() {
+		super.onStart();
+
+	}
+
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+	}
+
+	@Override
+	protected void onStop() {
+		super.onStop();
+	}
+
+	@Override
+	protected void onRestart() {
+		super.onRestart();
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		if (myTTs != null) {
+			myTTs.stop();
+			myTTs.shutdown();
+		}
+		Utility.startFirstAlarm(this);
 	}
 }
 
