@@ -11,9 +11,9 @@
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/chart"
-            android:layout_weight="0.5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
 
         <TextView
             android:id="@+id/TestViewNews"
@@ -23,12 +23,12 @@
             android:layout_height="fill_parent"
             android:layout_weight = "1" />
 
-        <ImageButton android:id="@+id/addAlarm2"
+        <ImageButton
+            android:id="@+id/addAlarm2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:scaleType="fitCenter"
+            android:layout_weight="1"
             android:background="@drawable/btn_play_default"
-            android:layout_weight = "1">
-        </ImageButton>
+            android:scaleType="fitCenter"></ImageButton>
     </LinearLayout>
 </LinearLayout>

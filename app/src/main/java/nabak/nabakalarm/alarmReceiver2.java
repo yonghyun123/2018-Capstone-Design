@@ -47,6 +47,7 @@ import android.widget.Toast;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Description;
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
@@ -139,13 +140,22 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	 */
 	private void makeChart(){
 		List<Entry> entries = new ArrayList<Entry>();
-		entries.add(new Entry(1, 1));
-		entries.add(new Entry(2, 2));
-		entries.add(new Entry(3, 0));
-		entries.add(new Entry(4, 4));
-		entries.add(new Entry(5, 3));
+		entries.add(new Entry(0, 80));
+		entries.add(new Entry((float) 0.5, 77));
+		entries.add(new Entry(1, 75));
+		entries.add(new Entry((float)1.5, 72));
+		entries.add(new Entry(2, 69));
+		entries.add(new Entry((float)2.5, 65));
+		entries.add(new Entry(3, 65));
+		entries.add(new Entry((float)3.5, 66));
+		entries.add(new Entry(4, 65));
+		entries.add(new Entry((float)4.5, 66));
+		entries.add(new Entry(5, 69));
+		entries.add(new Entry((float)5.5, 73));
+		entries.add(new Entry(6, 77));
 
-		LineDataSet lineDataSet = new LineDataSet(entries, "속성명1");
+
+		LineDataSet lineDataSet = new LineDataSet(entries, "시간");
 		lineDataSet.setLineWidth(2);
 		lineDataSet.setCircleRadius(6);
 		lineDataSet.setCircleColor(Color.parseColor("#FFA1B4DC"));
@@ -159,6 +169,10 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 		LineData lineData = new LineData(lineDataSet);
 		lineChart.setData(lineData);
+
+		Legend legend = lineChart.getLegend();
+		legend.setTextColor(Color.parseColor("#ffffff"));
+		legend.setTextSize(Float.parseFloat("20f"));
 
 		XAxis xAxis = lineChart.getXAxis();
 		xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
