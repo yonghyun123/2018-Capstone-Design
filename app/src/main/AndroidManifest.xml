@@ -3,13 +3,16 @@
     package="nabak.nabakalarm"
     android:versionCode="4"
     android:versionName="1.2" >
-
     <uses-sdk android:minSdkVersion="7" />
-	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
-	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
-	<uses-permission android:name="android.permission.WAKE_LOCK"/>
-	     <!-- 광고 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <!-- 광고 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
@@ -17,27 +20,29 @@
         android:label="삼조한김" >
         <activity
             android:name=".NabakAlarmActivity"
-            android:configChanges="keyboardHidden|orientation"       				  
+            android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-				
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Bluetooth" android:screenOrientation="portrait"></activity>
         <activity android:name="alarm"
-            	  android:screenOrientation="portrait"
+            android:screenOrientation="portrait"
             ></activity>
         <activity android:name="alarmSet"
-            	  android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity android:name="afternoonAlarm"
-        	      android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity android:name="alarmReceiver"
-            	  android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity android:name="alarmReceiver2"
-            	  android:screenOrientation="portrait"></activity>
-        		<!-- 광고 -->
+            android:screenOrientation="portrait"></activity>
+        <!-- 광고 -->
         <activity android:name="com.nbpcorp.mobilead.sdk.MobileAdBrowserActivity" />
     </application>
 </manifest>

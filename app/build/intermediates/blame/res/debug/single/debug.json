@@ -16,6 +16,10 @@
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/afteral.png"
     },
     {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/layout_bluetooth.xml.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/layout/bluetooth.xml"
+    },
+    {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-hdpi_alar.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/alar.png"
     },

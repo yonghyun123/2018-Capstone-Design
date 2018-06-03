@@ -17,6 +17,13 @@
         	android:layout_height="fill_parent"
         	android:layout_weight = "1" />
 
+         <Button
+             android:id="@+id/bluetooth"
+             android:text="Bluetooth"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+
         <ImageButton android:id="@+id/addAlarm"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

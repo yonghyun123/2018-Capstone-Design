@@ -128,6 +128,9 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 		HtmlAsyncTask htmlAsyncTask = new HtmlAsyncTask();
 		htmlAsyncTask.execute();
+		mNewsText.setTextSize(20f);
+		mNewsText.setText("당신은 코골이 의심이 없습니다.");
+		mNewsText.setTextColor(Color.BLACK);
 		makeChart();
 	}
 
@@ -329,7 +332,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 		protected void onPostExecute(Long result) {
 			super.onPostExecute(result);
 //
-			mNewsText.setText(ttsResponse);
+//			mNewsText.setText(ttsResponse);
 			ttsGreater21(ttsResponse.toString());
 		}
 
