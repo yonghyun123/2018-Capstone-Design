@@ -1,6 +1,7 @@
 package nabak.nabakalarm;
 // 1.JAVA I/O중 바이트 스트림에 관련된 최상위 클래스인 InputStream, OutputStream (영문1,한글 2바이트)
 
+import java.io.IOException;
 import java.io.InputStream;import java.io.OutputStream;
 /** 2. JAVA 에서는 배열보다는 Util 패키지의 List,Set,Map 인터페이스를 주요 사용한다.
  배열은 같은 타입만 저장 가능하지만, 위의 인터페이스는 서로 다른 타입을 같은 List 안에 저장할 수 있다
@@ -21,6 +22,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.SystemClock;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -65,6 +67,7 @@ public class Bluetooth extends Activity {
     int readBufferPosition;
 
     private Handler mHandler;
+    private ConnectedThread mConnectedThread;
 
 
     EditText mEditReceive, mEditSend;
@@ -172,7 +175,8 @@ public class Bluetooth extends Activity {
 
             // 데이터 수신 준비.
 
-            beginListenForData();
+            mConnectedThread = new ConnectedThread(mSocket);
+            mConnectedThread.start();
 
         }catch(Exception e) { // 블루투스 연결 중 오류 발생
             Toast.makeText(getApplicationContext(), "블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
@@ -181,14 +185,63 @@ public class Bluetooth extends Activity {
     }
 
     // 데이터 수신(쓰레드 사용 수신된 메시지를 계속 검사함)
-    void beginListenForData() {
-        final Handler handler = new Handler();
+//    void beginListenForData() {
+//        final Handler handler = new Handler();
+//
+//        readBufferPosition = 0;                 // 버퍼 내 수신 문자 저장 위치.
+//        readBuffer = new byte[1024];            // 수신 버퍼.
+//        Log.i("비긴리슨폴데이터","beginListenForData!!!!!");
+//        // 문자열 수신 쓰레드.
+//
+//    }
 
-        readBufferPosition = 0;                 // 버퍼 내 수신 문자 저장 위치.
-        readBuffer = new byte[1024];            // 수신 버퍼.
-        Log.i("비긴리슨폴데이터","beginListenForData!!!!!");
-        // 문자열 수신 쓰레드.
+    private class ConnectedThread extends Thread {
+        private final BluetoothSocket mmSocket;
+        private final InputStream mmInStream;
+        private final OutputStream mmOutStream;
 
+        public ConnectedThread(BluetoothSocket socket) {
+            mmSocket = socket;
+            InputStream tmpIn = null;
+            OutputStream tmpOut = null;
+
+            // Get the input and output streams, using temp objects because
+            // member streams are final
+            try {
+                tmpIn = socket.getInputStream();
+                tmpOut = socket.getOutputStream();
+            } catch (IOException e) {
+            }
+
+            mmInStream = tmpIn;
+            mmOutStream = tmpOut;
+        }
+
+        public void run() {
+            byte[] buffer = new byte[1024];  // buffer store for the stream
+            int bytes; // bytes returned from read()
+            // Keep listening to the InputStream until an exception occurs
+            while (true) {
+                try {
+                    // Read from the InputStream
+                    bytes = mmInStream.available();
+                    if (bytes != 0) {
+                        buffer = new byte[1024];
+                        SystemClock.sleep(100); //pause and wait for rest of data. Adjust this depending on your sending speed.
+                        bytes = mmInStream.available(); // how many bytes are ready to be read?
+                        bytes = mmInStream.read(buffer, 0, bytes); // record how many bytes we actually read
+                        String tempStr = new String(buffer,"utf-8");
+                        Log.i("buffer!!!!!", tempStr);
+                        mHandler.obtainMessage(2, bytes, -1, buffer)
+                                .sendToTarget(); // Send the obtained bytes to the UI activity
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+
+                    break;
+                }
+            }
+        }
     }
 
     // 블루투스 지원하며 활성 상태인 경우.

@@ -6,22 +6,22 @@
     density="mdpi"
     format="10"
     plugin-version="3.1.1"
-    timestamp="1527679054909"
+    timestamp="1528012676430"
     token="4112837129841034168"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1928" />
+        duration="3156" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="122" />
+        duration="135" />
     <task
         name="verifier"
-        duration="78" />
+        duration="259" />
 
     <artifact
         location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1527679054909"
+        timestamp="1528012676430"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
