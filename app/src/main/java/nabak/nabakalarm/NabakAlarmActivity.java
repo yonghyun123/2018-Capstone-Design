@@ -2,6 +2,7 @@ package nabak.nabakalarm;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.widget.TabHost;
@@ -31,12 +32,7 @@ public class NabakAlarmActivity extends TabActivity{
                 .setIndicator("알람", 
                 		getResources().getDrawable(R.drawable.alar))
         		.setContent(new Intent(this, alarm.class)));
-        /*
-        tabHost.addTab(tabHost.newTabSpec("스탑워치")
-                .setIndicator("스탑워치", 
-                		getResources().getDrawable(R.drawable.stopwatch))
-                .setContent(R.id.StopWatch));
-                */
+        tabHost.getTabWidget().getChildTabViewAt(0).setBackgroundColor(Color.parseColor("#292929"));
 
     }
     

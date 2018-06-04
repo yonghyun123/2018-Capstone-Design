@@ -335,6 +335,7 @@
 
 
 		<Button
+			android:background="#333333"
 			android:id="@+id/set"
 			android:textSize="35dp"
 			android:layout_width="match_parent"

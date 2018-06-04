@@ -40,11 +40,11 @@ public final class R {
     public static final int delete=0x7f020010;
     public static final int ic_launcher=0x7f020011;
     public static final int layout_bg=0x7f020012;
-    public static final int nabak_alarm_title=0x7f020013;
-    public static final int nabakalarm=0x7f020014;
-    public static final int nabakalarmtitle=0x7f020015;
-    public static final int stopwatch=0x7f020016;
-    public static final int target=0x7f020017;
+    public static final int nabakalarm=0x7f020013;
+    public static final int nabakalarmtitle=0x7f020014;
+    public static final int stopwatch=0x7f020015;
+    public static final int target=0x7f020016;
+    public static final int title_icon=0x7f020017;
     public static final int wheel_bg=0x7f020018;
     public static final int wheel_val=0x7f020019;
   }

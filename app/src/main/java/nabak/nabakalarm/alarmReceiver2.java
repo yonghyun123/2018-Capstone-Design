@@ -127,7 +127,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 
 		} else {
-			showNotification(R.drawable.nabak_alarm_title, "가", mRingTone, vibrate);
+			showNotification(R.drawable.title_icon, "가", mRingTone, vibrate);
 		}
 
 		HtmlAsyncTask htmlAsyncTask = new HtmlAsyncTask();

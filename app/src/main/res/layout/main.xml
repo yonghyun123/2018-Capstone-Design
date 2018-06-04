@@ -2,16 +2,17 @@
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
+    android:background="#333333"
     android:layout_height="fill_parent" >
 
      <LinearLayout android:id="@+id/AfterNoonSleep"
-        android:background="#ffffff"      
+        android:background="#333333"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
      </LinearLayout>
 
     <LinearLayout android:id="@+id/StopWatch"
-        android:background="#ffffff"  
+        android:background="#333333"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         ></LinearLayout>

@@ -19,8 +19,8 @@
         android:name=".SensorData"
         android:allowBackup="true"
 
-        android:icon="@drawable/nabakalarmtitle"
-        android:label="삼조한김" >
+        android:icon="@drawable/title_icon"
+        android:label="삼김한장" >
         <activity
             android:name=".NabakAlarmActivity"
             android:configChanges="keyboardHidden|orientation"
@@ -33,15 +33,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Bluetooth" android:screenOrientation="portrait"></activity>
         <activity android:name="alarm"
             android:screenOrientation="portrait"
             ></activity>
         <activity android:name="alarmSet"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name="afternoonAlarm"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name="alarmReceiver"
             android:screenOrientation="portrait"></activity>
         <activity android:name="alarmReceiver2"
             android:screenOrientation="portrait"></activity>

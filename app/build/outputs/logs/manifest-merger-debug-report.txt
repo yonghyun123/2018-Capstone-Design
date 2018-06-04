@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
-INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml
@@ -68,11 +68,11 @@ ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:17
 	android:name
 		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:17:22-76
 application
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:18:5-50:19
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:18:5-45:19
 	android:label
 		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:23:9-29
 	android:icon
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:22:9-49
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:22:9-44
 	android:allowBackup
 		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:20:9-35
 	android:name
@@ -97,43 +97,25 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
 		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:32:27-74
-activity#nabak.nabakalarm.Bluetooth
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:36:9-93
-	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:36:45-81
-	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:36:19-44
 activity#nabak.nabakalarm.alarm
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:37:9-39:25
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:36:9-38:25
 	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:37:13-49
 	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:37:19-39
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:36:19-39
 activity#nabak.nabakalarm.alarmSet
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:40:9-41:61
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:39:9-40:61
 	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:40:13-49
 	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:40:19-42
-activity#nabak.nabakalarm.afternoonAlarm
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:42:9-43:61
-	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:43:13-49
-	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:42:19-48
-activity#nabak.nabakalarm.alarmReceiver
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:44:9-45:61
-	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:45:13-49
-	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:44:19-47
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:39:19-42
 activity#nabak.nabakalarm.alarmReceiver2
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:46:9-47:61
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:41:9-42:61
 	android:screenOrientation
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:42:13-49
 	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:46:19-48
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:41:19-48
 activity#com.nbpcorp.mobilead.sdk.MobileAdBrowserActivity
-ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:49:9-85
+ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:44:9-85
 	android:name
-		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:49:19-82
+		ADDED from /Users/yonghyun/nabakalarm-master/app/src/main/AndroidManifest.xml:44:19-82

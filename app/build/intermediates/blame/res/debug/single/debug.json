@@ -28,14 +28,6 @@
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/alar.png"
     },
     {
-        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_nabak_alarm_title.png.flat",
-        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/nabak_alarm_title.png"
-    },
-    {
-        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nabak_alarm_title.png.flat",
-        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/nabak_alarm_title.png"
-    },
-    {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_nabakalarmtitle.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/nabakalarmtitle.png"
     },
@@ -122,6 +114,10 @@
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_title_icon.png.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/title_icon.png"
     },
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_afteral.png.flat",
