@@ -6,12 +6,16 @@ package nabak.nabakalarm;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 import java.util.StringTokenizer;
+import java.util.UUID;
 
 import com.nbpcorp.mobilead.sdk.MobileAdListener;
 import com.nbpcorp.mobilead.sdk.MobileAdView;
@@ -87,7 +91,7 @@ public class alarm extends Activity{
 	private int readBufferPosition;
 
 	private Handler mHandler;
-	private Bluetooth.ConnectedThread mConnectedThread;
+	private ConnectedThread mConnectedThread;
 	public SensorData mSensor;
 
 
@@ -136,14 +140,38 @@ public class alarm extends Activity{
 
 			}		
 		});
+
+
+		//bluetooth 통신 버튼
+		mSensor = ((SensorData)getApplicationContext());
 		Button bluetoothbtn = (Button)findViewById(R.id.bluetooth);
 		bluetoothbtn.setOnClickListener(new Button.OnClickListener(){
 			@Override
 			public void onClick(View v){
-				Intent intent2 = new Intent(alarm.this, Bluetooth.class);
-				startActivity(intent2);
+				checkBluetooth();
 			}
 		});
+
+		mHandler = new Handler(){
+			public void handleMessage(android.os.Message msg){
+				if(msg.what == 2){
+					String readMessage = null;
+					try {
+						readMessage = new String((byte[]) msg.obj, "UTF-8");
+					} catch (UnsupportedEncodingException e) {
+						e.printStackTrace();
+					}
+//                    Log.i("readMessage!!!!",readMessage);
+				}
+
+				if(msg.what == 3){
+					if(msg.arg1 == 1)
+						Log.i("Connected to Device: ", (String)(msg.obj));
+					else
+						Log.i("Connection Failed", (String)(msg.obj));
+				}
+			}
+		};
 	}
 	//
 	@Override
@@ -282,8 +310,107 @@ public class alarm extends Activity{
 			}
 		}
 	}
+	// 블루투스 장치의 이름이 주어졌을때 해당 블루투스 장치 객체를 페어링 된 장치 목록에서 찾아내는 코드.
+	BluetoothDevice getDeviceFromBondedList(String name) {
+		// BluetoothDevice : 페어링 된 기기 목록을 얻어옴.
+		BluetoothDevice selectedDevice = null;
+		// getBondedDevices 함수가 반환하는 페어링 된 기기 목록은 Set 형식이며,
+		// Set 형식에서는 n 번째 원소를 얻어오는 방법이 없으므로 주어진 이름과 비교해서 찾는다.
+		for(BluetoothDevice deivce : mDevices) {
+			// getName() : 단말기의 Bluetooth Adapter 이름을 반환
+			if(name.equals(deivce.getName())) {
+				selectedDevice = deivce;
+				break;
+			}
+		}
+		return selectedDevice;
+	}
 
-	//bluetooth connection class
+	void connectToSelectedDevice(String selectedDeviceName) {
+		// BluetoothDevice 원격 블루투스 기기를 나타냄.
+		mRemoteDevie = getDeviceFromBondedList(selectedDeviceName);
+		// java.util.UUID.fromString : 자바에서 중복되지 않는 Unique 키 생성.
+		UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
+
+
+		try {
+			// 소켓 생성, RFCOMM 채널을 통한 연결.
+			// createRfcommSocketToServiceRecord(uuid) : 이 함수를 사용하여 원격 블루투스 장치와 통신할 수 있는 소켓을 생성함.
+			// 이 메소드가 성공하면 스마트폰과 페어링 된 디바이스간 통신 채널에 대응하는 BluetoothSocket 오브젝트를 리턴함.
+			mSocket = mRemoteDevie.createRfcommSocketToServiceRecord(uuid);
+			mSocket.connect(); // 소켓이 생성 되면 connect() 함수를 호출함으로써 두기기의 연결은 완료된다.
+			Log.i("커넥투 디바이스","connectToSelectDevcie!!!!!");
+
+			// 데이터 송수신을 위한 스트림 얻기.
+			// BluetoothSocket 오브젝트는 두개의 Stream을 제공한다.
+			// 1. 데이터를 보내기 위한 OutputStrem
+			// 2. 데이터를 받기 위한 InputStream
+			mOutputStream = mSocket.getOutputStream();
+			mInputStream = mSocket.getInputStream();
+
+			// 데이터 수신 준비.
+
+			mConnectedThread = new ConnectedThread(mSocket);
+			mConnectedThread.start();
+
+		}catch(Exception e) { // 블루투스 연결 중 오류 발생
+			Toast.makeText(getApplicationContext(), "블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
+			finish();  // App 종료
+		}
+	}
+
+	// 블루투스 지원하며 활성 상태인 경우.
+	void selectDevice() {
+		// 블루투스 디바이스는 연결해서 사용하기 전에 먼저 페어링 되어야만 한다
+		// getBondedDevices() : 페어링된 장치 목록 얻어오는 함수.
+		mDevices = mBluetoothAdapter.getBondedDevices();
+		mPariedDeviceCount = mDevices.size();
+		Log.i("셀렉트 디바이스","selectDevice!!!!!");
+		if(mPariedDeviceCount == 0 ) { // 페어링된 장치가 없는 경우.
+			Toast.makeText(getApplicationContext(), "페어링된 장치가 없습니다.", Toast.LENGTH_LONG).show();
+			finish(); // App 종료.
+		}
+		// .페어링된 장치가 있는 경우
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("블루투스 장치 선택");
+
+		// 각 디바이스는 이름과(서로 다른) 주소를 가진다. 페어링 된 디바이스들을 표시한다.
+		List<String> listItems = new ArrayList<String>();
+		for(BluetoothDevice device : mDevices) {
+			// device.getName() : 단말기의 Bluetooth Adapter 이름을 반환.
+			listItems.add(device.getName());
+		}
+		listItems.add("취소");  // 취소 항목 추가.
+
+
+		// CharSequence : 변경 가능한 문자열.
+		// toArray : List형태로 넘어온것 배열로 바꿔서 처리하기 위한 toArray() 함수.
+		final CharSequence[] items = listItems.toArray(new CharSequence[listItems.size()]);
+		// toArray 함수를 이용해서 size만큼 배열이 생성 되었다.
+		listItems.toArray(new CharSequence[listItems.size()]);
+
+		builder.setItems(items, new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int item) {
+				// TODO Auto-generated method stub
+				if(item == mPariedDeviceCount) { // 연결할 장치를 선택하지 않고 '취소' 를 누른 경우.
+					Toast.makeText(getApplicationContext(), "연결할 장치를 선택하지 않았습니다.", Toast.LENGTH_LONG).show();
+					finish();
+				}
+				else { // 연결할 장치를 선택한 경우, 선택한 장치와 연결을 시도함.
+					connectToSelectedDevice(items[item].toString());
+				}
+			}
+
+		});
+
+		builder.setCancelable(false);  // 뒤로 가기 버튼 사용 금지.
+		AlertDialog alert = builder.create();
+		alert.show();
+	}
+
+	//bluetooth connectixon class
 	private class ConnectedThread extends Thread {
 		private final BluetoothSocket mmSocket;
 		private final InputStream mmInStream;
@@ -324,7 +451,10 @@ public class alarm extends Activity{
 						String tempStr = new String(buffer,"utf-8");
 						StringTokenizer st = new StringTokenizer(tempStr,"\n");
 						tempStr = st.nextToken();
-						mSensor.setmSensorData(tempStr);
+						if(tempStr != null){
+							mSensor.setmSensorData(tempStr);
+						}
+
 						Log.i("tempSTR!!!",tempStr);
 						if(buffer !=null) {
 							mHandler.obtainMessage(2, bytes, -1, buffer)
