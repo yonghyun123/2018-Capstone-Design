@@ -6,11 +6,11 @@
                 {
                     "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "4,-1,5",
-                        "startColumns": "4,-1,4",
-                        "startOffsets": "119,-1,161",
-                        "endColumns": "41,-1,54",
-                        "endOffsets": "156,-1,211"
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "119,56,161",
+                        "endColumns": "41,62,54",
+                        "endOffsets": "156,114,211"
                     },
                     "to": {
                         "startLines": "3,4,5",

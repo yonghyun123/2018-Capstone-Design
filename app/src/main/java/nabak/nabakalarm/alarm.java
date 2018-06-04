@@ -17,9 +17,6 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.UUID;
 
-import com.nbpcorp.mobilead.sdk.MobileAdListener;
-import com.nbpcorp.mobilead.sdk.MobileAdView;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
@@ -135,7 +132,7 @@ public class alarm extends Activity{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				 Intent intent = new Intent(alarm.this, alarmSet.class);
+				 Intent intent = new Intent(alarm.this, AlarmSet.class);
 				 startActivity(intent);
 
 			}		
@@ -263,7 +260,7 @@ public class alarm extends Activity{
 					long db_id = currentCursor.getLong(colID);
 
 					 // 최고 우선 순위 알람에만 적용됨 수정할 부분
-					 Intent intent = new Intent(alarm.this, alarmSet.class);
+					 Intent intent = new Intent(alarm.this, AlarmSet.class);
 					 intent.putExtra("id", db_id);
 					 intent.putExtra("day", currentCursor.getInt(colDAY));
 					 intent.putExtra("hour", currentCursor.getInt(colHOUR));

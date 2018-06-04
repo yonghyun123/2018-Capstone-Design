@@ -8,8 +8,6 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
-import android.util.Log;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class Utility {
@@ -110,7 +108,7 @@ public class Utility {
        	} while (c.moveToNext());
     	}
        if( m_day != 100){
-       	Intent intent = new Intent(context, alarmReceiver2.class);
+       	Intent intent = new Intent(context, AlarmReceiver.class);
        	intent.putExtra("ringtone", m_ring);
        	intent.putExtra("vibrate", m_vib);
        	intent.putExtra("newsKeyword", m_news);
@@ -140,7 +138,7 @@ public class Utility {
 
   //알람 해제
   	public static void cancelAlarm(Context context) {
-  		Intent intent = new Intent(context, alarmReceiver2.class);
+  		Intent intent = new Intent(context, AlarmReceiver.class);
         PendingIntent sender = PendingIntent.getActivity(context, alarmSetId, intent, PendingIntent.FLAG_CANCEL_CURRENT );
           
           // And cancel the alarm.

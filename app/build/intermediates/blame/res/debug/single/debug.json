@@ -28,12 +28,12 @@
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/alar.png"
     },
     {
-        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_nabakalarmtitle.png.flat",
-        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/nabakalarmtitle.png"
-    },
-    {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_bluetooth_clicked.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-mdpi/btn_bluetooth_clicked.png"
+    },
+    {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_nabakalarmtitle.png.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/nabakalarmtitle.png"
     },
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_clock_on.png.flat",

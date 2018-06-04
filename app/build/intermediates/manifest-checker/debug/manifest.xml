@@ -10,8 +10,6 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- 광고 -->
@@ -26,7 +24,7 @@
         android:label="삼김한장"
         android:testOnly="true" >
         <activity
-            android:name="nabak.nabakalarm.NabakAlarmActivity"
+            android:name="nabak.nabakalarm.SmartSleepingAlarm"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -40,10 +38,10 @@
             android:name="nabak.nabakalarm.alarm"
             android:screenOrientation="portrait" />
         <activity
-            android:name="nabak.nabakalarm.alarmSet"
+            android:name="nabak.nabakalarm.AlarmSet"
             android:screenOrientation="portrait" />
         <activity
-            android:name="nabak.nabakalarm.alarmReceiver2"
+            android:name="nabak.nabakalarm.AlarmReceiver"
             android:screenOrientation="portrait" />
         <!-- 광고 -->
         <activity android:name="com.nbpcorp.mobilead.sdk.MobileAdBrowserActivity" />

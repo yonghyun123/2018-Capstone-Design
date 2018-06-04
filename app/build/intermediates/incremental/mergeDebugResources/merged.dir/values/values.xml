@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="com.nbp.mobilead.library.MobileAdView"><attr format="string" name="channel_id"/><attr format="boolean" name="test"/></declare-styleable>
+    <string name="app_name">삼김한장</string>
+    <string name="hello">Hello World, Smart Sleeping!</string>
+    <string name="label_ring">Smart Sleeping!</string>
+</resources>
