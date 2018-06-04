@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_btn_bluetooth_unclicked.png.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/btn_bluetooth_unclicked.png"
+    },
+    {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_btn_play_default.xml.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/btn_play_default.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_nabakalarmtitle.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/nabakalarmtitle.png"
+    },
+    {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_bluetooth_clicked.png.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-mdpi/btn_bluetooth_clicked.png"
     },
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_clock_on.png.flat",
@@ -126,6 +134,10 @@
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-hdpi_stopwatch.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/stopwatch.png"
+    },
+    {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable_btn_bluetooth.xml.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable/btn_bluetooth.xml"
     },
     {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",

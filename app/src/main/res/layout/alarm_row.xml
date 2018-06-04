@@ -28,7 +28,7 @@
     		android:layout_height="wrap_content"
     		android:lineSpacingMultiplier="0.8"
     		android:textSize="25sp"
-    		android:textColor="#a0304f"
+    		android:textColor="#ffffff"
     		android:text="6:30"
     	/>
     	<TextView
@@ -36,7 +36,7 @@
     	    android:layout_width="fill_parent"
     		android:layout_height="wrap_content"
     		android:textSize="15sp"
-    		android:textColor="#00af00"
+    		android:textColor="#ffffff"
     		android:text="월, 수, 금"
     	/>  
 	</LinearLayout>

@@ -1,69 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="x86"
+    api-level="26"
     build-mode="COLD"
-    density="mdpi"
+    density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1528104897945"
+    timestamp="1528111232065"
     token="4112837129841034168"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="430" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
-        location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1528103933023"
+        timestamp="1528105990203"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -71,27 +61,38 @@
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1528104282584"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1528104897945"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1528110838503"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1528111232065"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

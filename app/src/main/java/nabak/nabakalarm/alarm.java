@@ -144,7 +144,7 @@ public class alarm extends Activity{
 
 		//bluetooth 통신 버튼
 		mSensor = ((SensorData)getApplicationContext());
-		Button bluetoothbtn = (Button)findViewById(R.id.bluetooth);
+		ImageButton bluetoothbtn = (ImageButton) findViewById(R.id.bluetooth);
 		bluetoothbtn.setOnClickListener(new Button.OnClickListener(){
 			@Override
 			public void onClick(View v){
@@ -287,7 +287,7 @@ public class alarm extends Activity{
 		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 		if(mBluetoothAdapter == null ) {  // 블루투스 미지원
 			Toast.makeText(getApplicationContext(), "기기가 블루투스를 지원하지 않습니다.", Toast.LENGTH_LONG).show();
-			finish();  // 앱종료
+//			finish();  // 앱종료
 		}
 		else { // 블루투스 지원
 			/** isEnable() : 블루투스 모듈이 활성화 되었는지 확인.
@@ -355,7 +355,7 @@ public class alarm extends Activity{
 
 		}catch(Exception e) { // 블루투스 연결 중 오류 발생
 			Toast.makeText(getApplicationContext(), "블루투스 연결 중 오류가 발생했습니다.", Toast.LENGTH_LONG).show();
-			finish();  // App 종료
+//			finish();  // App 종료
 		}
 	}
 

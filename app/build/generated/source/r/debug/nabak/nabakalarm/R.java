@@ -30,20 +30,23 @@ public final class R {
     public static final int alarm_cancel=0x7f020006;
     public static final int alarmcancel=0x7f020007;
     public static final int alarmreceive=0x7f020008;
-    public static final int btn_play_default=0x7f020009;
-    public static final int clock=0x7f02000a;
-    public static final int clock_off=0x7f02000b;
-    public static final int clock_on=0x7f02000c;
-    public static final int delete=0x7f02000d;
-    public static final int ic_launcher=0x7f02000e;
-    public static final int layout_bg=0x7f02000f;
-    public static final int nabak_alarm_title=0x7f020010;
-    public static final int nabakalarm=0x7f020011;
-    public static final int nabakalarmtitle=0x7f020012;
-    public static final int stopwatch=0x7f020013;
-    public static final int target=0x7f020014;
-    public static final int wheel_bg=0x7f020015;
-    public static final int wheel_val=0x7f020016;
+    public static final int btn_bluetooth=0x7f020009;
+    public static final int btn_bluetooth_clicked=0x7f02000a;
+    public static final int btn_bluetooth_unclicked=0x7f02000b;
+    public static final int btn_play_default=0x7f02000c;
+    public static final int clock=0x7f02000d;
+    public static final int clock_off=0x7f02000e;
+    public static final int clock_on=0x7f02000f;
+    public static final int delete=0x7f020010;
+    public static final int ic_launcher=0x7f020011;
+    public static final int layout_bg=0x7f020012;
+    public static final int nabak_alarm_title=0x7f020013;
+    public static final int nabakalarm=0x7f020014;
+    public static final int nabakalarmtitle=0x7f020015;
+    public static final int stopwatch=0x7f020016;
+    public static final int target=0x7f020017;
+    public static final int wheel_bg=0x7f020018;
+    public static final int wheel_val=0x7f020019;
   }
   public static final class id {
     public static final int AfterNoonSleep=0x7f030000;

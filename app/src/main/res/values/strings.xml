@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, Smart Sleeping!</string>
-    <string name="app_name">삼조한김</string>
-    <string name="label_ring">NabakAlarm</string>
+    <string name="app_name">삼김한장</string>
+    <string name="label_ring">Smart Sleeping!</string>
     
 </resources>

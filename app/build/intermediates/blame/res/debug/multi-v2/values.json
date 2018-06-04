@@ -6,18 +6,18 @@
                 {
                     "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "4,3,-1",
-                        "startColumns": "4,4,-1",
-                        "startOffsets": "119,56,-1",
-                        "endColumns": "41,62,-1",
-                        "endOffsets": "156,114,-1"
+                        "startLines": "4,-1,5",
+                        "startColumns": "4,-1,4",
+                        "startOffsets": "119,-1,161",
+                        "endColumns": "41,-1,54",
+                        "endOffsets": "156,-1,211"
                     },
                     "to": {
                         "startLines": "3,4,5",
                         "startColumns": "4,4,4",
                         "startOffsets": "221,263,326",
-                        "endColumns": "41,62,49",
-                        "endOffsets": "258,321,371"
+                        "endColumns": "41,62,54",
+                        "endOffsets": "258,321,376"
                     }
                 }
             ]
