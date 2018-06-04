@@ -9,9 +9,11 @@ import java.io.InputStream;import java.io.OutputStream;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;import java.util.Set;
 // 3. UUID : Universally Unique IDentifier, 범용 고유 실별자.import java.util.UUID;
 
+import java.util.StringTokenizer;
 import java.util.UUID;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -32,15 +34,7 @@ import android.widget.Toast;
 
 
 public class Bluetooth extends Activity {
-    /*
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.bluetooth);
-        Intent intent=new Intent(this.getIntent());
 
-        Button textView=(Button) findViewById(R.id.test);
-    }
-*/
 
     static final int REQUEST_ENABLE_BT = 10;
     int mPariedDeviceCount = 0;
@@ -68,6 +62,7 @@ public class Bluetooth extends Activity {
 
     private Handler mHandler;
     private ConnectedThread mConnectedThread;
+    public SensorData mSensor;
 
 
     EditText mEditReceive, mEditSend;
@@ -83,6 +78,7 @@ public class Bluetooth extends Activity {
         mEditReceive = (EditText)findViewById(R.id.receiveString);
         mEditSend = (EditText)findViewById(R.id.sendString);
         mButtonSend = (Button)findViewById(R.id.sendButton);
+        mSensor = ((SensorData)getApplicationContext());
 
         mButtonSend.setOnClickListener(new OnClickListener(){
 
@@ -106,7 +102,7 @@ public class Bluetooth extends Activity {
                     } catch (UnsupportedEncodingException e) {
                         e.printStackTrace();
                     }
-                    Log.i("readMessage!!!!",readMessage);
+//                    Log.i("readMessage!!!!",readMessage);
                 }
 
                 if(msg.what == 3){
@@ -184,18 +180,8 @@ public class Bluetooth extends Activity {
         }
     }
 
-    // 데이터 수신(쓰레드 사용 수신된 메시지를 계속 검사함)
-//    void beginListenForData() {
-//        final Handler handler = new Handler();
-//
-//        readBufferPosition = 0;                 // 버퍼 내 수신 문자 저장 위치.
-//        readBuffer = new byte[1024];            // 수신 버퍼.
-//        Log.i("비긴리슨폴데이터","beginListenForData!!!!!");
-//        // 문자열 수신 쓰레드.
-//
-//    }
 
-    private class ConnectedThread extends Thread {
+    public class ConnectedThread extends Thread {
         private final BluetoothSocket mmSocket;
         private final InputStream mmInStream;
         private final OutputStream mmOutStream;
@@ -228,12 +214,19 @@ public class Bluetooth extends Activity {
                     if (bytes != 0) {
                         buffer = new byte[1024];
                         SystemClock.sleep(100); //pause and wait for rest of data. Adjust this depending on your sending speed.
+                        Arrays.fill(buffer, (byte)0x00);
+
                         bytes = mmInStream.available(); // how many bytes are ready to be read?
                         bytes = mmInStream.read(buffer, 0, bytes); // record how many bytes we actually read
                         String tempStr = new String(buffer,"utf-8");
-                        Log.i("buffer!!!!!", tempStr);
-                        mHandler.obtainMessage(2, bytes, -1, buffer)
-                                .sendToTarget(); // Send the obtained bytes to the UI activity
+                        StringTokenizer st = new StringTokenizer(tempStr,"\n");
+                        tempStr = st.nextToken();
+                        mSensor.setmSensorData(tempStr);
+                        Log.i("tempSTR!!!",tempStr);
+                        if(buffer !=null) {
+                            mHandler.obtainMessage(2, bytes, -1, buffer)
+                                    .sendToTarget(); // Send the obtained bytes to the UI activity
+                        }
                     }
                 } catch (IOException e) {
                     e.printStackTrace();

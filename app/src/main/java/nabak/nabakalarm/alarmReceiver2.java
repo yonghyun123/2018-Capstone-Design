@@ -12,6 +12,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.regex.Pattern;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -77,26 +78,29 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 	private TextToSpeech myTTs;
 
-	// Notification Manager 얻기
+	// Notification Manager ???
 	private GestureDetector mGestures = null;
 	private NotificationManager nm = null;
 
-	//알람 메니저
+	//??? ?????
 	private AlarmManager mManager = null;
 
 	//textView
 	private TextView mNewsText;
+	private SensorData mSensorData;
+
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.alarm_result);
+		mSensorData = ((SensorData)getApplicationContext());
 
-		//검색 api test
 
 		pm = (PowerManager) this.getSystemService(Context.POWER_SERVICE);
-		if (!pm.isScreenOn()) { // 스크린이 켜져 있지 않으면 켠다
+		if (!pm.isScreenOn()) {
 			wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "NabakAlarm");
 			wl.acquire();
 			this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
@@ -123,7 +127,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 
 		} else {
-			showNotification(R.drawable.nabak_alarm_title, "가자", mRingTone, vibrate);
+			showNotification(R.drawable.nabak_alarm_title, "가", mRingTone, vibrate);
 		}
 
 		HtmlAsyncTask htmlAsyncTask = new HtmlAsyncTask();
@@ -132,6 +136,14 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 		mNewsText.setText("당신은 코골이 의심이 없습니다.");
 		mNewsText.setTextColor(Color.BLACK);
 		makeChart();
+
+
+//		Log.i("Reciever Activity1",mSensorData.getmSensorData().get(0));
+//		Log.i("Reciever Activity2",mSensorData.getmSensorData().get(1));
+//		Log.i("Reciever Activity3",mSensorData.getmSensorData().get(2));
+//		Log.i("Reciever Activity4",mSensorData.getmSensorData().get(3));
+//		Log.i("Reciever Activity5",mSensorData.getmSensorData().get(4));
+
 	}
 
 
@@ -142,23 +154,35 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 		make chart
 	 */
 	private void makeChart(){
+
 		List<Entry> entries = new ArrayList<Entry>();
-		entries.add(new Entry(0, 80));
-		entries.add(new Entry((float) 0.5, 77));
-		entries.add(new Entry(1, 75));
-		entries.add(new Entry((float)1.5, 72));
-		entries.add(new Entry(2, 69));
-		entries.add(new Entry((float)2.5, 65));
-		entries.add(new Entry(3, 65));
-		entries.add(new Entry((float)3.5, 66));
-		entries.add(new Entry(4, 65));
-		entries.add(new Entry((float)4.5, 66));
-		entries.add(new Entry(5, 69));
-		entries.add(new Entry((float)5.5, 73));
-		entries.add(new Entry(6, 77));
+		if(mSensorData.getmSensorData().size() == 0){
+			entries.add(new Entry(1,40));
+			entries.add(new Entry(2,50));
+			entries.add(new Entry(3,60));
+			entries.add(new Entry(4,40));
+			entries.add(new Entry(5,43));
+			entries.add(new Entry(6,20));
+			entries.add(new Entry(7,10));
+
+		} else {
+			if(Pattern.matches("^[0-9]*$", mSensorData.getmSensorData().get(0))){
+				entries.add((new Entry(1,Float.parseFloat(mSensorData.getmSensorData().get(0)))));
+			}
+			if(Pattern.matches("^[0-9]*$", mSensorData.getmSensorData().get(1))){
+				entries.add((new Entry(2,Float.parseFloat(mSensorData.getmSensorData().get(1)))));
+			}
+			float temp = Float.parseFloat(mSensorData.getmSensorData().get(2));
+			entries.add((new Entry(3,temp)));
+			entries.add(new Entry(4,12));
 
 
-		LineDataSet lineDataSet = new LineDataSet(entries, "시간");
+
+		}
+
+
+
+		LineDataSet lineDataSet = new LineDataSet(entries, "시");
 		lineDataSet.setLineWidth(2);
 		lineDataSet.setCircleRadius(6);
 		lineDataSet.setCircleColor(Color.parseColor("#FFA1B4DC"));
@@ -207,18 +231,14 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 
 
 	private void showNotification(int statusBarIconID, String statusBatTextID, String ringtone, int vibrate) {
-		// Notification 객체 생성/설정
 		nm = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
-//		Notification notifi = new Notification(R.drawable.nabak_alarm_title, null, System.currentTimeMillis());
-		//사용자가 원할 때 까지 계속 울리가하는 FLAG값
-
 
 		playSound(Uri.parse(mRingTone));
 
-		if (vibrate == 1) {    // 진동이 설정되어 있으면 ?
+		if (vibrate == 1) {
 			vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-			long[] pattern = {200, 2000, 100, 1700, 200, 2000, 100, 1700, 200, 2000, 100, 1700};          //  무진동, 진동 순이다.
-			vibe.vibrate(pattern, 2);                                 // 패턴을 지정하고 반복횟수를 지정  숫자 2가 계속 반복이다.
+			long[] pattern = {200, 2000, 100, 1700, 200, 2000, 100, 1700, 200, 2000, 100, 1700};
+			vibe.vibrate(pattern, 2);
 		}
 
 		show(); //alert
@@ -227,7 +247,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	protected void show() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("알람을 종료하시겠습니까?");
-		builder.setPositiveButton("예",
+		builder.setPositiveButton("",
 				new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialogInterface, int which) {
@@ -279,7 +299,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 	/*
 	created by yonghyun 2018.5.4
 	description: using naver search API in background thread
-	if don't use alarm keyword, default input is 그린팩토리
+	if don't use alarm keyword, default input is ???????
 	 */
 	class HtmlAsyncTask extends AsyncTask<URL, Integer, Long> {
 		@Override
@@ -296,7 +316,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 				if (mNewsKeyword != null) {
 					text = URLEncoder.encode(mNewsKeyword, "UTF-8");
 				} else {
-					text = URLEncoder.encode("그린팩토리", "UTF-8");
+					text = URLEncoder.encode("korea", "UTF-8");
 				}
 				String apiURL = "https://openapi.naver.com/v1/search/news?query=" + text;
 				URL url = new URL(apiURL);
@@ -344,7 +364,7 @@ public class alarmReceiver2 extends Activity implements TextToSpeech.OnInitListe
 				JSONObject tmpObj = items.getJSONObject(i);
 				titleList.add(tmpObj.getString("title"));
 				if(tmpObj.getString("title").contains("&") || tmpObj.getString("title").contains(";")) continue;
-				ttsResponse.append(i+1+"번 째 뉴스 "+getString(tmpObj.getString("title")) + "  ");
+				ttsResponse.append(i+1+"번        째 뉴스      "+getString(tmpObj.getString("title")) + "  ");
 			}
 			Log.i("ttsResponse",ttsResponse.toString());
 		}

@@ -19,6 +19,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name="nabak.nabakalarm.SensorData"
+        android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/nabakalarmtitle"
         android:label="삼조한김"

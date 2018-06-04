@@ -3,20 +3,32 @@ package nabak.nabakalarm;
 
 
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Set;
+import java.util.StringTokenizer;
 
 import com.nbpcorp.mobilead.sdk.MobileAdListener;
 import com.nbpcorp.mobilead.sdk.MobileAdView;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.SystemClock;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +36,7 @@ import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -46,6 +59,41 @@ public class alarm extends Activity{
 	private static int colDAY;
 	private static int colRING;
 	private static int colVIB;
+
+
+//	bluetooth communication
+	private static final int REQUEST_ENABLE_BT = 10;
+	private int mPariedDeviceCount = 0;
+	private Set<BluetoothDevice> mDevices;
+	// 폰의 블루투스 모듈을 사용하기 위한 오브젝트.
+	private BluetoothAdapter mBluetoothAdapter;
+	/**
+	 BluetoothDevice 로 기기의 장치정보를 알아낼 수 있는 자세한 메소드 및 상태값을 알아낼 수 있다.
+	 연결하고자 하는 다른 블루투스 기기의 이름, 주소, 연결 상태 등의 정보를 조회할 수 있는 클래스.
+	 현재 기기가 아닌 다른 블루투스 기기와의 연결 및 정보를 알아낼 때 사용.
+	 */
+	private BluetoothDevice mRemoteDevie;
+	// 스마트폰과 페어링 된 디바이스간 통신 채널에 대응 하는 BluetoothSocket
+	private BluetoothSocket mSocket = null;
+	private OutputStream mOutputStream = null;
+	private InputStream mInputStream = null;
+	private String mStrDelimiter = "\n";
+	private char mCharDelimiter =  '\n';
+
+
+
+	private Thread mWorkerThread = null;
+	private byte[] readBuffer;
+	private int readBufferPosition;
+
+	private Handler mHandler;
+	private Bluetooth.ConnectedThread mConnectedThread;
+	public SensorData mSensor;
+
+
+	EditText mEditReceive, mEditSend;
+	Button mButtonSend;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -147,7 +195,7 @@ public class alarm extends Activity{
 					long db_id = currentCursor.getLong(colID);
 					int on = currentCursor.getInt(colONOFF);
 					//
-					if (on == 0) on = 1; 
+					if (on == 0) on = 1;
 					else on = 0;
 					//
 					db.modifyAlarmOn(db_id, on);
@@ -155,16 +203,16 @@ public class alarm extends Activity{
 					adapter.notifyDataSetChanged();
 					//
 				//	calendar = Calendar.getInstance();
-					if(on == 1){	
+					if(on == 1){
 						icon_view.setImageResource(R.drawable.clock_on);
-						Toast.makeText(getBaseContext(), "알람이 설정 되었습니다. " 
-								, 
+						Toast.makeText(getBaseContext(), "알람이 설정 되었습니다. "
+								,
 								Toast.LENGTH_SHORT).show();
 					} else {
 						icon_view.setImageResource(R.drawable.clock_off);
 						Toast.makeText(alarm.this, "알람이 해제됐습니다.", Toast.LENGTH_SHORT).show();
 					}
-					
+
 				} else if (delete_view.getLeft() < CheckedColumn_x && CheckedColumn_x < delete_view.getRight()) {
 					new AlertDialog.Builder(alarm.this)
     				.setMessage("삭제하시겠습니까?")
@@ -185,7 +233,7 @@ public class alarm extends Activity{
 					.show();
 				} else{
 					long db_id = currentCursor.getLong(colID);
-					
+
 					 // 최고 우선 순위 알람에만 적용됨 수정할 부분
 					 Intent intent = new Intent(alarm.this, alarmSet.class);
 					 intent.putExtra("id", db_id);
@@ -197,10 +245,100 @@ public class alarm extends Activity{
 
 					 startActivity(intent);
 				}
-			
+
 			}
 		}
 	};
+
+	//bluetooth check method
+	void checkBluetooth() {
+		/**
+		 * getDefaultAdapter() : 만일 폰에 블루투스 모듈이 없으면 null 을 리턴한다.
+		 이경우 Toast를 사용해 에러메시지를 표시하고 앱을 종료한다.
+		 */
+		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+		if(mBluetoothAdapter == null ) {  // 블루투스 미지원
+			Toast.makeText(getApplicationContext(), "기기가 블루투스를 지원하지 않습니다.", Toast.LENGTH_LONG).show();
+			finish();  // 앱종료
+		}
+		else { // 블루투스 지원
+			/** isEnable() : 블루투스 모듈이 활성화 되었는지 확인.
+			 *               true : 지원 ,  false : 미지원
+			 */
+			if (!mBluetoothAdapter.isEnabled()) { // 블루투스 지원하며 비활성 상태인 경우.
+				Toast.makeText(getApplicationContext(), "현재 블루투스가 비활성 상태입니다.", Toast.LENGTH_LONG).show();
+				Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+				// REQUEST_ENABLE_BT : 블루투스 활성 상태의 변경 결과를 App 으로 알려줄 때 식별자로 사용(0이상)
+				/**
+				 startActivityForResult 함수 호출후 다이얼로그가 나타남
+				 "예" 를 선택하면 시스템의 블루투스 장치를 활성화 시키고
+				 "아니오" 를 선택하면 비활성화 상태를 유지 한다.
+				 선택 결과는 onActivityResult 콜백 함수에서 확인할 수 있다.
+				 */
+				startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+			} else { // 블루투스 지원하며 활성 상태인 경우.
+				Log.i("체크 블루투스","checkbluetooth!!!!!");
+				selectDevice();
+			}
+		}
+	}
+
+	//bluetooth connection class
+	private class ConnectedThread extends Thread {
+		private final BluetoothSocket mmSocket;
+		private final InputStream mmInStream;
+		private final OutputStream mmOutStream;
+
+		public ConnectedThread(BluetoothSocket socket) {
+			mmSocket = socket;
+			InputStream tmpIn = null;
+			OutputStream tmpOut = null;
+
+			// Get the input and output streams, using temp objects because
+			// member streams are final
+			try {
+				tmpIn = socket.getInputStream();
+				tmpOut = socket.getOutputStream();
+			} catch (IOException e) {
+			}
+
+			mmInStream = tmpIn;
+			mmOutStream = tmpOut;
+		}
+
+		public void run() {
+			byte[] buffer = new byte[1024];  // buffer store for the stream
+			int bytes; // bytes returned from read()
+			// Keep listening to the InputStream until an exception occurs
+			while (true) {
+				try {
+					// Read from the InputStream
+					bytes = mmInStream.available();
+					if (bytes != 0) {
+						buffer = new byte[1024];
+						SystemClock.sleep(100); //pause and wait for rest of data. Adjust this depending on your sending speed.
+						Arrays.fill(buffer, (byte)0x00);
+
+						bytes = mmInStream.available(); // how many bytes are ready to be read?
+						bytes = mmInStream.read(buffer, 0, bytes); // record how many bytes we actually read
+						String tempStr = new String(buffer,"utf-8");
+						StringTokenizer st = new StringTokenizer(tempStr,"\n");
+						tempStr = st.nextToken();
+						mSensor.setmSensorData(tempStr);
+						Log.i("tempSTR!!!",tempStr);
+						if(buffer !=null) {
+							mHandler.obtainMessage(2, bytes, -1, buffer)
+									.sendToTarget(); // Send the obtained bytes to the UI activity
+						}
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+
+					break;
+				}
+			}
+		}
+	}
 
 ////////////////////////////////////////////////////////////////////////////////////
 //list adapter	
