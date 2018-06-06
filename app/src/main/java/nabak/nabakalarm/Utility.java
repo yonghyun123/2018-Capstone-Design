@@ -126,7 +126,6 @@ public class Utility {
        	Toast.makeText(context, "알람 설정 시간" + calendar.get(Calendar.YEAR)+ "년 "
 			+ (calendar.get(Calendar.MONTH)+1) + "월 "
 			+ calendar.get(Calendar.DAY_OF_MONTH) + "일 "
-			+ calendar.get(Calendar.DAY_OF_WEEK)  + "요일 "
 			+ calendar.get(Calendar.HOUR_OF_DAY) + "시 "
 			+ calendar.get(Calendar.MINUTE)+ "분 ",
 			Toast.LENGTH_SHORT).show();

@@ -21,92 +21,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/nabak/nabakalarm/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/nabak/nabakalarm/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/AlarmReceiver.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/ChartMarker.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/ChartMarker.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarm.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/alarmSet.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/AlarmReceiver.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/ChartMarker.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/ChartMarker.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarm.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/alarmSet.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/Utility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/nabak/nabakalarm/Utility.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/Utility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/nabak/nabakalarm/Utility.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_alarm_result.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_alarm_result.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_chart_marker.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_chart_marker.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmReceiver.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet$4.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet$5.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/AlarmSet.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/ChartMarker.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/ChartMarker.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/R$styleable.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm$5.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm$MyCursorAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm$MyCursorAdapter.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/alarm.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/Utility.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/nabak/nabakalarm/Utility.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/AlarmReceiver.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/ChartMarker.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/ChartMarker.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarm.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/alarmSet.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/Utility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/nabak/nabakalarm/Utility.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver$HtmlAsyncTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/AlarmReceiver.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/ChartMarker.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/ChartMarker.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$MyCursorAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm$MyCursorAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarm.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/alarmSet.class" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ChartMarker.java" afterPath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ChartMarker.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chart_marker.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chart_marker.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/Utility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/nabak/nabakalarm/Utility.class" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +58,7 @@
       <file leaf-file-name="AlarmReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="106">
               <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
               <folding>
                 <element signature="e#2099#2107#0" expanded="true" />
@@ -143,14 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart_marker.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chart_marker.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/chart_marker.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -224,7 +149,7 @@
       <file leaf-file-name="ChartMarker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ChartMarker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="195">
               <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -235,21 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/SensorData.java">
+      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/DBAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="1785">
+              <caret line="127" column="56" lean-forward="true" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -2326,7 +2241,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/afternoonAlarm.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmCancel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_receiver2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ReceiveNews.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/alarmSet.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -2352,6 +2266,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/chart_marker.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java" />
       </list>
     </option>
   </component>
@@ -2683,13 +2598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/a686f57c1f31262aaecf0cdf700d78eaa8f6b6ab/MPAndroidChart-v3.0.2-sources.jar!/com/github/mikephil/charting/utils/Transformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/a686f57c1f31262aaecf0cdf700d78eaa8f6b6ab/MPAndroidChart-v3.0.2-sources.jar!/com/github/mikephil/charting/data/DataSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2857,14 +2765,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2997,29 +2897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ChartMarker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
-          <folding>
-            <element signature="e#2099#2107#0" expanded="true" />
-            <element signature="e#5111#5118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alarm_result.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3047,8 +2924,47 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/AlarmReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
+          <folding>
+            <element signature="e#2099#2107#0" expanded="true" />
+            <element signature="e#5111#5118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/ChartMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-8/android.jar!/java/util/Calendar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/nabak/nabakalarm/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="127" column="56" lean-forward="true" selection-start-line="127" selection-start-column="56" selection-end-line="127" selection-end-column="56" />
           <folding />
         </state>
       </provider>

@@ -7,26 +7,23 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1528272801818"
+    timestamp="1528273309002"
     token="4112837129841034168"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="367" />
+        duration="390" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="58" />
+        duration="19" />
     <task
         name="verifier"
-        duration="29" />
+        duration="7" />
 
-    <artifact
-        location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
@@ -83,6 +80,12 @@
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1528273309002"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
