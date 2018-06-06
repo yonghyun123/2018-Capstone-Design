@@ -46,6 +46,7 @@ import com.github.mikephil.charting.data.LineDataSet;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListener {
 
@@ -71,6 +72,11 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
 
     //textView
     private TextView mNewsText;
+    private TextView mHeartInfo;
+    private TextView mHeartInfo2;
+    private TextView mHeartInfo3;
+    private TextView mHeartInfo4;
+    private TextView mHeartInfo5;
     private SensorData mSensorData;
 
 
@@ -93,9 +99,21 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
 
         }
         mNewsText = (TextView) findViewById(R.id.TestViewNews);
+        mHeartInfo = (TextView)findViewById(R.id.heartInfo);
+        mHeartInfo2 = (TextView)findViewById(R.id.heartInfo2);
+        mHeartInfo3 = (TextView)findViewById(R.id.heartInfo3);
+        mHeartInfo4 = (TextView)findViewById(R.id.heartInfo4);
+
         mRingTone = getIntent().getStringExtra("ringtone");
         mNewsKeyword = getIntent().getStringExtra("newsKeyword");
         int vibrate = getIntent().getIntExtra("vibrate", 0);
+
+        //heartInfo
+
+        mHeartInfo.setText("심장 강화 피트니스 구간 : 중간에서 높은 운동강도 구간");
+        mHeartInfo2.setText("지방 연소 구간 : 낮음에서 중간 운동강도 구간");
+        mHeartInfo3.setText("안정적 구간 : 휴식을 취하는 구간");
+        mHeartInfo4.setText("서맥 : 심박수가 60이하일때 표기, (사람마다 심박수가 다르기 때문에 병적 증상이 없을 경우 정상 구간)");
 
         //make chart and marker
         lineChart = (LineChart) findViewById(R.id.chart);
@@ -117,9 +135,7 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
 
         HtmlAsyncTask htmlAsyncTask = new HtmlAsyncTask();
         htmlAsyncTask.execute();
-        mNewsText.setTextSize(20f);
-        mNewsText.setText("당신은 코골이 의심이 없습니다.");
-        mNewsText.setTextColor(Color.BLACK);
+
         makeChart();
 
 

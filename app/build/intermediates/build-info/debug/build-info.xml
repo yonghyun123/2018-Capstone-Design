@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1528267770415"
+    timestamp="1528272801818"
     token="4112837129841034168"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="448" />
+        duration="367" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="105" />
+        duration="58" />
     <task
         name="verifier"
-        duration="9" />
+        duration="29" />
 
     <artifact
         location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -77,8 +77,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1528267770415"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1528272801818"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/yonghyun/nabakalarm-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"

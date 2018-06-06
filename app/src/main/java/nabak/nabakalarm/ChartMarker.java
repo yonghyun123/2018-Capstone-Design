@@ -25,14 +25,27 @@ public class ChartMarker extends MarkerView {
         if (e instanceof CandleEntry) {
 
             CandleEntry ce = (CandleEntry) e;
-
             tvContent.setText("" + Utils.formatNumber(ce.getHigh(), 0, true));
         } else {
-
-            tvContent.setText("" + Utils.formatNumber(e.getY(), 0, true));
+            String heartRate = Utils.formatNumber(e.getY(),0,true);
+            setHeartMarker(Integer.parseInt(heartRate));
         }
 
         super.refreshContent(e, highlight);
+    }
+
+    public void setHeartMarker(int heartRate){
+        String comments = "";
+         if (heartRate > 145) {
+            comments = "심장 강화 피트니스 구간 ";
+        } else if (heartRate > 120) {
+            comments = "지방 연소 구간 ";
+        } else if (heartRate > 80) {
+            comments = "안정적인 구간 ";
+        } else {
+            comments = "서맥 구간 ";
+        }
+        tvContent.setText(comments + Utils.formatNumber(heartRate,0,true));
     }
 
     @Override

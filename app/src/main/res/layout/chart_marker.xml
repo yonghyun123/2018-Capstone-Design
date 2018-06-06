@@ -11,6 +11,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
         android:text=""
         android:textSize="12dp"
         android:textColor="#00aaff"
