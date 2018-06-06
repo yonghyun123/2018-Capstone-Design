@@ -80,6 +80,10 @@
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/target.png"
     },
     {
+        "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/layout_chart_marker.xml.flat",
+        "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/layout/chart_marker.xml"
+    },
+    {
         "merged": "/Users/yonghyun/nabakalarm-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nabakalarm.png.flat",
         "source": "/Users/yonghyun/nabakalarm-master/app/src/main/res/drawable-hdpi/nabakalarm.png"
     },

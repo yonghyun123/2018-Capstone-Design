@@ -95,9 +95,10 @@ public final class R {
     public static final int time_picker=0x7f03002b;
     public static final int toggleButton1=0x7f03002c;
     public static final int tue=0x7f03002d;
-    public static final int weather=0x7f03002e;
-    public static final int wed=0x7f03002f;
-    public static final int week_button=0x7f030030;
+    public static final int tvContent=0x7f03002e;
+    public static final int weather=0x7f03002f;
+    public static final int wed=0x7f030030;
+    public static final int week_button=0x7f030031;
   }
   public static final class layout {
     public static final int alarm=0x7f040000;
@@ -106,7 +107,8 @@ public final class R {
     public static final int alarm_row=0x7f040003;
     public static final int alarmset=0x7f040004;
     public static final int bluetooth=0x7f040005;
-    public static final int main=0x7f040006;
+    public static final int chart_marker=0x7f040006;
+    public static final int main=0x7f040007;
   }
   public static final class string {
     public static final int app_name=0x7f050000;

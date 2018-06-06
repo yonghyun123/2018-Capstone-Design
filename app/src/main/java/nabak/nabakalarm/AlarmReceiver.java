@@ -5,47 +5,33 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
-import java.util.regex.Pattern;
 
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
-import android.app.Notification;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.PowerManager;
 import android.os.Vibrator;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.GestureDetector;
-import android.view.KeyEvent;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.LineChart;
@@ -56,14 +42,10 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
-import com.nabak.movingview.MovingView;
-import com.nbpcorp.mobilead.sdk.MobileAdListener;
-import com.nbpcorp.mobilead.sdk.MobileAdView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
 public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListener {
 
@@ -102,7 +84,7 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
 
         pm = (PowerManager) this.getSystemService(Context.POWER_SERVICE);
         if (!pm.isScreenOn()) {
-            wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "NabakAlarm");
+            wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "smartSleeping");
             wl.acquire();
             this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
 //										WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
@@ -115,8 +97,11 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
         mNewsKeyword = getIntent().getStringExtra("newsKeyword");
         int vibrate = getIntent().getIntExtra("vibrate", 0);
 
-        //make chart
+        //make chart and marker
         lineChart = (LineChart) findViewById(R.id.chart);
+        ChartMarker myMarker =new ChartMarker(this, R.layout.chart_marker);
+        myMarker.setChartView(lineChart);
+        lineChart.setMarker(myMarker);
 
 
         myTTs = new TextToSpeech(this, this);
@@ -137,12 +122,6 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
         mNewsText.setTextColor(Color.BLACK);
         makeChart();
 
-
-//		Log.i("Reciever Activity1",mSensorData.getmSensorData().get(0));
-//		Log.i("Reciever Activity2",mSensorData.getmSensorData().get(1));
-//		Log.i("Reciever Activity3",mSensorData.getmSensorData().get(2));
-//		Log.i("Reciever Activity4",mSensorData.getmSensorData().get(3));
-//		Log.i("Reciever Activity5",mSensorData.getmSensorData().get(4));
 
     }
 
@@ -241,10 +220,12 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
         lineChart.setDescription(description);
         lineChart.animateY(2000, Easing.EasingOption.EaseInCubic);
         lineChart.invalidate();
+
     }
 
 
     private void ttsGreater21(String str) {
+        myTTs.setSpeechRate((float)0.8);
         myTTs.speak(str, TextToSpeech.QUEUE_FLUSH, null);
     }
 
@@ -382,7 +363,7 @@ public class AlarmReceiver extends Activity implements TextToSpeech.OnInitListen
                 titleList.add(tmpObj.getString("title"));
                 if (tmpObj.getString("title").contains("&") || tmpObj.getString("title").contains(";"))
                     continue;
-                ttsResponse.append(i + 1 + "번        째 뉴스      " + getString(tmpObj.getString("title")) + "  ");
+                ttsResponse.append(i + 1 + " 번 뉴스 " + getString(tmpObj.getString("title")) + " ");
             }
             Log.i("ttsResponse", ttsResponse.toString());
         }
